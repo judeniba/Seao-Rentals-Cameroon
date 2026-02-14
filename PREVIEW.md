@@ -4,7 +4,7 @@
 
 This guide explains different ways to preview and test the SEAO-RENTALS equipment rental platform.
 
-> **Note for GitHub Spark Projects**: This project uses GitHub Spark, which stores source code in a KV (key-value) database rather than traditional files. The preview commands work when the application is properly set up in the Spark environment. If you're running this locally outside of Spark, you may need to use the Spark development tools to load the application code first.
+> **Note**: This project uses GitHub Spark for development. If running locally, ensure all dependencies are installed with `npm install` before previewing.
 
 ## 🚀 Quick Start
 
@@ -192,9 +192,10 @@ npm install
 
 **Error**: Port already in use
 ```bash
-# Kill process on port (Mac/Linux)
+# Kill process on dev port 5000 (Mac/Linux)
 npm run kill
-# or
+
+# Kill process on preview port 4173 (Mac/Linux)
 lsof -ti:4173 | xargs kill
 
 # Kill process on port (Windows)
@@ -263,9 +264,10 @@ netlify deploy --prod
 ### GitHub Pages
 ```bash
 npm run build
-npm run deploy
+# Then deploy the dist folder to gh-pages branch
+npx gh-pages -d dist
 ```
-(After configuring gh-pages in package.json)
+(Requires gh-pages package. See DEPLOYMENT.md for detailed setup)
 
 ## 📱 Sharing Preview with Stakeholders
 
