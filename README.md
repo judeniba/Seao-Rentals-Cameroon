@@ -1,5 +1,7 @@
 # SEAO-RENTALS Cameroun - Equipment Rental Platform
 
+> 👀 **Want to see it in action?** → See [PREVIEW.md](./PREVIEW.md) for quick preview instructions
+
 ## ✅ INTEGRATION STATUS: FULLY SYNCHRONIZED
 
 All components, pages, and systems are **completely integrated and working together**.
@@ -157,15 +159,39 @@ All 27 features tested for:
 
 ## 📖 Documentation
 
+- [PREVIEW.md](./PREVIEW.md) - **How to preview and test the platform** ⭐
+- [DEPLOYMENT.md](./DEPLOYMENT.md) - Production deployment guide
+- [QUICK_START.md](./QUICK_START.md) - Getting started guide
+- [NAVIGATION_GUIDE.md](./NAVIGATION_GUIDE.md) - User navigation and feature access guide
+- [BACKEND_PORTAL.md](./BACKEND_PORTAL.md) - Backend management documentation
 - [ITERATION_27_SUMMARY.md](./ITERATION_27_SUMMARY.md) - Latest agreement system enhancements
 - [AGREEMENT_ENHANCEMENTS.md](./AGREEMENT_ENHANCEMENTS.md) - Complete agreement features documentation
 - [AGREEMENT_CUSTOMIZATION.md](./AGREEMENT_CUSTOMIZATION.md) - Agreement customization guide
 - [IMPLEMENTATION_SUMMARY.md](./IMPLEMENTATION_SUMMARY.md) - Complete feature implementation details
-- [NAVIGATION_GUIDE.md](./NAVIGATION_GUIDE.md) - User navigation and feature access guide
-- [BACKEND_PORTAL.md](./BACKEND_PORTAL.md) - Backend management documentation
 - [PAYMENT_INTEGRATION.md](./PAYMENT_INTEGRATION.md) - Mobile payment integration guide
 - [PRD.md](./PRD.md) - Product requirements and design specifications
 - [SECURITY.md](./SECURITY.md) - Security practices and guidelines
+
+## 👀 Preview the Platform
+
+### Quick Preview Options
+
+**Option 1: Development Mode** (for testing and development)
+```bash
+npm install
+npm run dev
+```
+Open http://localhost:5173 in your browser
+
+**Option 2: Production Preview** (for production testing)
+```bash
+npm install
+npm run build
+npm run preview
+```
+Open http://localhost:4173 in your browser
+
+📖 **Detailed Preview Guide**: See [PREVIEW.md](./PREVIEW.md) for comprehensive preview instructions, troubleshooting, and testing checklist.
 
 ## 🚀 Getting Started
 
