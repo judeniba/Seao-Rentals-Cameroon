@@ -4,6 +4,8 @@
 
 This guide explains different ways to preview and test the SEAO-RENTALS equipment rental platform.
 
+> **Note for GitHub Spark Projects**: This project uses GitHub Spark, which stores source code in a KV (key-value) database rather than traditional files. The preview commands work when the application is properly set up in the Spark environment. If you're running this locally outside of Spark, you may need to use the Spark development tools to load the application code first.
+
 ## 🚀 Quick Start
 
 ### Quick Verification Script
