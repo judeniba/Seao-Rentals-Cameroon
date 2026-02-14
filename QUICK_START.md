@@ -4,6 +4,30 @@
 
 Your platform is production-ready. Here's how to go live in the next 1-2 hours.
 
+> 💡 **Want to preview locally first?** See [PREVIEW.md](./PREVIEW.md) for detailed testing instructions before deployment.
+
+---
+
+## Step 0: Local Preview (Optional but Recommended)
+
+Before deploying, preview the application locally to ensure everything works:
+
+```bash
+# Development preview (with hot-reload)
+npm install
+npm run dev
+```
+Visit http://localhost:5173
+
+```bash
+# Production preview (optimized build)
+npm run build
+npm run preview
+```
+Visit http://localhost:4173
+
+**See [PREVIEW.md](./PREVIEW.md) for a complete testing checklist.**
+
 ---
 
 ## Step 1: Generate PWA Icons (30 minutes)
