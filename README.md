@@ -1,5 +1,7 @@
 # SEAO-RENTALS Cameroun - Equipment Rental Platform
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/judeniba/Seao-Rentals-Cameroon)
+
 ## ✅ INTEGRATION STATUS: FULLY SYNCHRONIZED
 
 All components, pages, and systems are **completely integrated and working together**.
@@ -157,6 +159,7 @@ All 27 features tested for:
 
 ## 📖 Documentation
 
+- [VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md) - **Complete Vercel deployment guide**
 - [ITERATION_27_SUMMARY.md](./ITERATION_27_SUMMARY.md) - Latest agreement system enhancements
 - [AGREEMENT_ENHANCEMENTS.md](./AGREEMENT_ENHANCEMENTS.md) - Complete agreement features documentation
 - [AGREEMENT_CUSTOMIZATION.md](./AGREEMENT_CUSTOMIZATION.md) - Agreement customization guide
@@ -168,6 +171,12 @@ All 27 features tested for:
 - [SECURITY.md](./SECURITY.md) - Security practices and guidelines
 
 ## 🚀 Getting Started
+
+### Quick Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/judeniba/Seao-Rentals-Cameroon)
+
+Or follow the [detailed Vercel deployment guide](./VERCEL_DEPLOYMENT.md).
 
 ### For Users
 1. Click **Info button (ℹ️)** in header to explore features
